@@ -1,8 +1,6 @@
-package p3_api;
+package p2_generic_methods;
 
-import java.util.function.BiFunction;
-
-public class Student implements Comparable<Student> {
+public class Student {
 	private String name;
 	private double gpa;
 
@@ -31,11 +29,6 @@ public class Student implements Comparable<Student> {
 	@Override
 	public String toString() {
 		return "Student [name=" + name + ", gpa=" + gpa + "]";
-	}
-
-	@Override
-	public int compareTo(Student o) {
-		return this.name.compareTo(o.name);
 	}
 
 }
