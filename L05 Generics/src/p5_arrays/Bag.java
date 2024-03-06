@@ -6,6 +6,7 @@ public class Bag <E>{
 	private E[] arr;
 	private int nElems;
 	
+	@SuppressWarnings("unchecked")
 	public Bag(int maxSize) {
 		arr = (E[])(new Object[maxSize]);
 	}
