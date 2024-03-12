@@ -1,6 +1,6 @@
 package p2_double_ended_list;
 
-public class Link {
+public class Link <T> {
 	public double dData;
 	public Link next;
 	
