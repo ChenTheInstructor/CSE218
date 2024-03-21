@@ -16,7 +16,7 @@ public class DemoOptional {
 //		}
 	}
 
-	public static Student search() {
+	public static Optional<Student> search() {
 		return Optional.ofNullable(null);
 	}
 
