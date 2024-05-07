@@ -14,7 +14,7 @@ public class Demo {
 		arr.insert(5);
 		arr.insert(6);
 		arr.display();
-		int partition = arr.partitionIt(0, arr.size()-1, 10);
+		int partition = arr.partitionIt(0, arr.size()-1, 5);
 		System.out.println(partition);
 		arr.display();
 	}
