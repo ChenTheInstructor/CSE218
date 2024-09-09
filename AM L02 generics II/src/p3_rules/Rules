@@ -1,0 +1,16 @@
+Rule 1:
+
+public class MyClass <T> {
+
+	private T x;
+	private static T y;// no static field allowed using a placeholder
+	
+	public MyClass() {
+		T x = new T();
+	}
+}
+
+
+Rule 2:
+ArrayList<String> [] list = new ArrayList<>[100];
+
