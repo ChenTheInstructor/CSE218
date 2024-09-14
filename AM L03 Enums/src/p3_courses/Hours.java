@@ -5,7 +5,7 @@ public enum Hours {
 	MORNING(new TimeRange(8, 0, 11, 59)),
 	AFTERNOON(new TimeRange(12, 0, 14, 59)),
 	MID_AFTERNOON(new TimeRange(15, 0, 15, 59)),
-	LATE_AFTERNOON(new TimeRange(16, 0, 17, 50)),
+	LATE_AFTERNOON(new TimeRange(16, 0, 17, 59)),
 	EVENING(new TimeRange(18, 0, 21, 59));
 	
 	private TimeRange timeRange;

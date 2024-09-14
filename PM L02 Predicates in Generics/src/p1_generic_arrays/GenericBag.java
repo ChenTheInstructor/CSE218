@@ -4,7 +4,7 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.function.Predicate;
 
-public class GenericBag <E extends Comparable<E>>  {
+public class GenericBag <E extends Object & Comparable<E>>  {
 	private E[] arr;
 	private int nElems;
 	

@@ -31,6 +31,12 @@ public class Student implements Comparable<Student> {
 		return "Student [name=" + name + ", gpa=" + gpa + "]";
 	}
 
+//	@Override
+//	public int compareTo(Object o) {
+//		return this.name.compareTo(((Student)(o)).getName());
+////		return 0;
+//	}
+
 	@Override
 	public int compareTo(Student o) {
 //		return this.name.compareTo(o.name);
