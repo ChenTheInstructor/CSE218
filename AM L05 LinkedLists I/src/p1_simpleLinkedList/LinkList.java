@@ -9,6 +9,26 @@ public class LinkList {
 		first = null;
 	}
 	
+	public Optional<Link> delete(int key) {
+		Link current = first;
+		Link previous = first;
+		while(current.getIData() != key) {
+			if(current.getNext() == null) {
+				return Optional.ofNullable(null);
+			} else {
+				previous = current;
+				current = current.getNext();
+			}
+		}
+		
+		if (current == first) {
+			first = first.getNext();
+		} else {
+			previous.setNext(current.getNext());
+		}
+		return Optional.of(current);
+	}
+	
 	public void displayList() {
 		System.out.println("First --> Last");
 		Link current = first;
