@@ -1,10 +1,10 @@
 package p2_classes;
 
-public class Point <T> {
+public class Point <T, S> {
 	private T x;
-	private T y;
+	private S y;
 
-	public Point(T x, T y) {
+	public Point(T x, S y) {
 		super();
 		this.x = x;
 		this.y = y;
@@ -18,11 +18,11 @@ public class Point <T> {
 		this.x = x;
 	}
 
-	public T getY() {
+	public S getY() {
 		return y;
 	}
 
-	public void setY(T y) {
+	public void setY(S y) {
 		this.y = y;
 	}
 
