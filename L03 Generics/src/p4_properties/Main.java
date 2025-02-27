@@ -12,7 +12,9 @@ public class Main {
 		// T t = new T(); not permitted
 		
 		// One cannot used generic classes to build an array
-		ArrayList<String> [] list = new ArrayList<>[10];
+	//	ArrayList<String> [] list = new ArrayList<>[10]; Not permitted
+		
+	// not permitted to create generic exception classes
 		
 		
 	}
