@@ -9,12 +9,21 @@ public class Demo {
 		list.insertFirst(3, 3.3);
 		list.insertFirst(4, 4.4);
 		
-		Link deletedLink = list.deleteFirst();
-		deletedLink.displayLink();
-		deletedLink = list.deleteFirst();
-		deletedLink.displayLink();
+//		Link deletedLink = list.deleteFirst();
+//		deletedLink.displayLink();
+//		deletedLink = list.deleteFirst();
+//		deletedLink.displayLink();
 		
-		list.find(3).displayLink();
+//		if(list.find(1).isPresent()) {
+//			list.find(1).get().displayLink();
+//		} else {
+//			System.out.println("No such key found");
+//		}
+		
+//		list.find(4).ifPresent((link) -> link.displayLink());
+		list.find(4).ifPresent((link) -> System.out.println(link));
+		list.find(40).ifPresent(System.out::println);
+
 
 	}
 

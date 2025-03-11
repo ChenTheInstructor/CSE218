@@ -39,4 +39,10 @@ public class Link {
 		this.next = next;
 	}
 
+	@Override
+	public String toString() {
+		return "Link [iData=" + iData + ", dData=" + dData + "]";
+	}
+
+	
 }
