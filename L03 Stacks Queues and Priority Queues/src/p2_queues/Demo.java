@@ -12,7 +12,6 @@ public class Demo {
 		q.add(60);
 		q.add(70);
 		
-		
 //		System.out.println(q.peekFront());
 //		while(!q.isEmpty()) {
 //			System.out.println(q.remove());

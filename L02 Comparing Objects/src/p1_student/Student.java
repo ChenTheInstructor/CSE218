@@ -2,7 +2,7 @@ package p1_student;
 
 import java.util.Objects;
 
-public class Student implements Comparable<Student>{
+public class Student implements Comparable<Student> {
 	private String name;
 	private int age;
 
@@ -32,10 +32,6 @@ public class Student implements Comparable<Student>{
 	public String toString() {
 		return "Student [name=" + name + ", age=" + age + "]";
 	}
-	
-	
-
-	
 
 	@Override
 	public int hashCode() {
