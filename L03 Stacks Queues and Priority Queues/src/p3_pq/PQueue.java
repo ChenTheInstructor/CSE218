@@ -29,7 +29,7 @@ public class PQueue {
 	}
 	
 	public int peekHighest() {
-		return queArray[nElems];
+		return queArray[nElems-1];
 	}
 	
 	public int remove() {
